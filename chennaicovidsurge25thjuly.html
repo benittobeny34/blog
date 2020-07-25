@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Covid-19</title>
+  <style>
+    header{
+      background: url(img/chennaicity.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    } 
+
+    .section{
+      padding-top:4vh;
+      padding-bottom:4vh;
+    }
+    .tabs .indicator{
+      background-color: #la237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    .source{
+      position: relative;
+      bottom:40px;
+      color:darkgray;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+   <header>
+     <nav class="nav-wrapper transparent">
+       <div class="container">
+       <a href="" class="brand-logo white-text text-darken-4">Covid-19</a>
+       <a href="#" class="sidenav-trigger show" data-target="mobile-menu">
+         <i class="material-icons white-text text-darken-4 ">menu</i>
+       </a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="#photos">Highlight</a></li>
+         <li><a href="#services">lab Testing</a></li> 
+         <li><a href="#contact">Zone Wise</a></li> 
+         <li><a href="#about" >About</a></li> 
+         <li>
+          <a href="https://www.instagram.com/benitto_003/"class="btn-floating btn-small indigo darken-4 white-text tooltipped" data-tooltip="
+         Follow me on Instagram" >
+             <i class="fab fa-instagram"></i>
+          </a>
+       </li>
+       <li>
+          <a href="https://twitter.com/beniraj003"class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="
+          Follow me on Twitter" >
+             <i class="fab fa-twitter pink-text"></i>
+          </a>
+       </li>
+        </ul>
+        <ul id="mobile-menu" class="sidenav grey lighten-2">
+          <li><a href="#photos">Highlight</a></li>
+          <li><a href="#services">Lab Testing</a></li> 
+          <li><a href="#contact">Zone Wise</a></li> 
+          <li><a href="#about">About</a></li> 
+          <li class=" text-lighten">  
+               <a href="https://www.instagram.com/benitto_003/" class="grey-text"><i class="fab fa-instagram center"></i> Instagram</a>
+          </li>
+          <li class="grey-text text-lighten">
+                <a href="https://twitter.com/beniraj003" class="grey-text"><i class="fab fa-twitter center"></i>Twitter</a>
+          </li>
+        </ul>
+        
+       </div>
+     </nav>
+   </header>
+
+      <p class='source  right-align'>source:indian express</p>
+
+  
+  <!-- photo / grid -->
+  <section class="container section scrollspy"  id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/covidtest.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h4>Covid-19: Tamil Nadu records highest single-day spike with 6,988 new cases</h4>
+        <h2 class="indigo-text text-darken-4">Highlight</h2>
+        <p>Tamil Nadu recorded its highest spike in daily Covid-19 cases, adding 6,988 cases on Saturday. The surge in the number of cases took the state’s overall tally to 2,06,737. The overall tally in Chennai, the state capital, breached 93,000.
+        <p>Today’s total cases included 62 returnees from other countries and states. A total of 89 deaths were recorded in the past 24 hours, taking the state’s toll to 3,409. Among those who died, five had no co-morbidities. A total of 64,315 samples were tested in the past 24 hours. The total number of samples touched 22,87,334. As many as 1,51,055 persons have been discharged till date, including today’s tally of 7,758. There are 52,273 active cases in the state.</p>
+        <p>Apart from Chennai, Chengalpattu (449), Kancheepuram (442), Thiruvallur (385), Virudhunagar (376), Madurai (301) recorded the maximum number of Covid-19 cases.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id='services'>
+    <div class="row">
+      <div class="col s12 l12">
+
+       <div class="col s12 l6 offset-l3">
+         <ul class="tabs">
+           <li class='tab col s6'>
+             <a href="#uae" class="indigo-text text-darken-4">Lab Testing</a>
+           </li>
+           <li class='tab col s6'>
+             <a href="#sponsars"  class="indigo-text text-darken-4">Airport</a>
+           </li>
+         </ul>
+         <div class="col s12" id='uae'>
+         <p class="flow-text indigo-text text-darken-4">One more lab approved for Covid testing</p>
+          <p>One more lab in Tamil Nadu has been approved for Covid testing in the state. Liberty Diagnostic and Research Centre in Tirunelveli was approved for testing on Saturday. With this, the number of labs for COVID-19 testing in the state has gone up to 115 (58 government and 57 private labs).</p>
+       </div>
+        <div class="col s12" id='sponsars'>
+         <p class="flow-text indigo-text text-darken-4">58 flights at Chennai International Airport</p>
+          <p>A total of 58 flights plied between Chennai and major cities on Saturday. There were 29 arrivals and 29 departures at the Chennai International Airport today. The first flight to Chennai was a flight from Hyderabad which touched down in the city at 7.30 am, while the last flight to Chennai will touch down at 11.30 pm from New Delhi.</p>
+          <p>The first flight from Chennai, which was bound for Hyderabad, departed from the Chennai airport at 6.05 am, while the last flight for today departed at 8.10 pm for Trichy.</p>
+
+       </div>
+       </div>
+       
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h5 class="indigo-text text-darken-4">Cases cross 10,000 in Chennai’s Royapuram, Anna Nagar and Kodambakkam</h5>
+        <p>Covid cases in Chennai have crossed 10,000 in three of the city’s 15 zones. According to data released by the Greater Chennai Corporation (GCC), Royapuram (Zone 5) leads the tally with 10,537 cases, followed by Anna Nagar (Zone 8) with 10,511 cases and Kodambakkam (Zone 8) with 10,692 cases.</p> 
+        <p> Here is the Zonal-wise break-up of positive cases in Chennai as of 9 am on Saturday:</p>
+         <ul>
+           <li>Thiruvottiyur (Zone 1) – 3367</li>
+           <li>Manali (Zone 2) – 1640</li>
+           <li>Madhavaram (Zone 3) – 2854</li>
+           <li>Tondiarpet (Zone 4) – 8978</li>
+           <li>Royapuram (Zone 5) – 10,537</li>
+           <li>Thiru.Vi.Ka Nagar (Zone 6) – 7375</li>
+           <li>Ambattur (Zone 7) – 4798</li>
+           <li>Anna Nagar (Zone 8) – 10,511</li>
+           <li>Teynampet (Zone 9) – 9987</li>
+           <li>Kodambakkam (Zone 10) – 10,692</li>
+           <li>Valasaravakkam (Zone 11) – 4817</li>
+           <li>Alandur (Zone 12) – 2724</li>
+           <li>Adyar (Zone 13) – 6296</li>
+           <li>Perungudi (Zone 14) – 2465</li>
+           <li>Sholinganallur (Zone 15) – 2052</li>
+         </ul>
+      </div>
+    </div>
+     <div class="row">
+      <div class="s12 l12">
+        <div class="left">
+         
+         <button class="btn-floating  disabled">
+           <a href="./ipl2020.html" class="center white-text text-darken-4">&larr;</a>
+         </button>
+         <span> No link</span>
+        </div>
+        <div class="right">
+         <span> IPL 2020 </span>
+         <button class="btn-floating pulse">
+           <a href="./ipl2020.html" class="center white-text text-darken-4">&rarr;</a>
+         </button>
+        </div>
+      </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6 scrollspy" id="about">
+          <h5>About me</h5>
+          <p>Hi, I am <span class="yellow-text text-darken-4"> Benitto </span> Pursuing BE ECE at Chettinad College of Engineering & Technology,puliyur,Karur.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Follow me on</h5>
+          <ul>
+               <li class=" text-lighten">  
+               <a href="https://www.instagram.com/benitto_003/" class="grey-text"><i class="fab fa-instagram center"></i> Instagram</a>
+               </li>
+              <li class="grey-text text-lighten">
+                <a href="https://twitter.com/beniraj003" class="grey-text"><i class="fab fa-twitter center"></i>Twitter</a>
+              </li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey-darken-4">
+      <div class="container center-align">
+         &copy; benitto 2020
+      </div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>

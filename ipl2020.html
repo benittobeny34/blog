@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>IPL 2020</title>
+  <style>
+    header{
+      background: url(img/kxlp.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    } 
+
+    .section{
+      padding-top:4vh;
+      padding-bottom:4vh;
+    }
+    .tabs .indicator{
+      background-color: #la237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    .source{
+      position: relative;
+      bottom:40px;
+      color:darkgray;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+   <header>
+     <nav class="nav-wrapper transparent">
+       <div class="container">
+       <a href="" class="brand-logo white-text text-darken-4">IPL 2020</a>
+       <a href="#" class="sidenav-trigger show" data-target="mobile-menu">
+         <i class="material-icons white-text text-darken-4">menu</i>
+       </a>
+       <ul class="right hide-on-med-and-down">
+         <li><a href="#photos">Statement</a></li>
+         <li><a href="#services">Why UAE</a></li> 
+         <li><a href="#contact">IPL</a></li> 
+         <li><a href="#about" >About</a></li> 
+         <li>
+          <a href="https://www.instagram.com/benitto_003/"class="btn-floating btn-small indigo darken-4 white-text tooltipped" data-tooltip="
+         Follow me on Instagram" >
+             <i class="fab fa-instagram"></i>
+          </a>
+       </li>
+       <li>
+          <a href="https://twitter.com/beniraj003"class="btn-floating btn-small indigo darken-4 tooltipped" data-tooltip="
+          Follow me on Twitter" >
+             <i class="fab fa-twitter pink-text"></i>
+          </a>
+       </li>
+        </ul>
+        <ul id="mobile-menu" class="sidenav grey lighten-2">
+          <li><a href="#photos">Statement</a></li>
+          <li><a href="#services">Why UAE</a></li> 
+          <li><a href="#contact">IPL</a></li> 
+          <li><a href="#about">About</a></li> 
+          <li class=" text-lighten">  
+               <a href="https://www.instagram.com/benitto_003/" class="grey-text"><i class="fab fa-instagram center"></i> Instagram</a>
+          </li>
+          <li class="grey-text text-lighten">
+                <a href="https://twitter.com/beniraj003" class="grey-text"><i class="fab fa-twitter center"></i>Twitter</a>
+          </li>
+        </ul>
+        
+       </div>
+     </nav>
+   </header>
+
+      <p class='source  right-align'>source:indian express</p>
+
+  
+  <!-- photo / grid -->
+  <section class="container section scrollspy"  id="photos">
+    <div class="row">
+      <div class="col s12 l4">
+        <img src="img/trophyhd.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">TROPHY</h2>
+        <p>Kings XI Punjab co-owner Ness Wadia on Friday advocated daily testing of players during the IPL and predicted that the upcoming edition in the UAE will be the most-watched in the tournament’s history.</p>
+        <p>Wadia’s comments came after IPL chairman Brijesh Patel confirmed that the T20 league will be held from September 19 to November 8. All teams are now awaiting the Standard Operating Procedure (SOP) from the BCCI, which will finalise the logistics in the IPL Governing Council meet next week
+        </p>
+        <p>“Strict safety protocols have to be put in place both for off-field and on-field activities to make the IPL safe and successful. They should not be compromised at all,” Wadia told PTI.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 push-l7 offset-l1">
+        <img src="img/nesswadiaimg.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 pull-l5 right-align offset-l1">
+        <h2 class="indigo-text text-darken-4">NessWadia</h2>
+        <p>“I would want as much testing as possible and preferably daily. If I was a cricketer, I would be very happy in getting myself tested everyday. There is no harm in it,” he added.</p>
+        <p>It is pretty clear that the IPL won’t be able to maintain a bio-secure environment like the England and Wales Cricket Board has managed for the ongoing Test series against the West Indies with both teams staying on site.</p>
+        <p>The logistical challenges are much bigger for an eight-team event like the IPL. The organisers wouldn’t even require that in the UAE, where a negative COVID-19 test report is all that is needed.</p>
+        <p>“Bio-secure is something that should be very seriously considered but don’t know if it can be implemented in an eight-team tournament. We are waiting for the SOPs from the BCCI</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id='services'>
+    <div class="row">
+      <div class="col s12 l12">
+
+       <div class="col s12 l6 offset-l3">
+         <ul class="tabs">
+           <li class='tab col s6'>
+             <a href="#uae" class="indigo-text text-darken-4">Why UAE?</a>
+           </li>
+           <li class='tab col s6'>
+             <a href="#sponsars"  class="indigo-text text-darken-4">Sponsars?</a>
+           </li>
+         </ul>
+         <div class="col s12" id='uae'>
+         <p class="flow-text indigo-text text-darken-4">UAE</p>
+          <p>“UAE also has a very high testing rate (472,575 per million) and they have all the technology at their disposal. The BCCI will need the help of local government in ensuring adequate testing is done,” Wadia said.</p>
+          <p>“From the logistics perspective, we have done IPL in the UAE before. But this time you have to add a lot more protocols. I am sure the BCCI will do the needful. There is also enough knowledge to be gained form football leagues like the EPL on how they are going about their job in COVID times.”</p>
+       </div>
+        <div class="col s12" id='sponsars'>
+         <p class="flow-text indigo-text text-darken-4">SPONSARS</p>
+          <p>Finding sponsors in the current financially fickle environment can be an issue for teams but Wadia feels the benefits to be associated with the IPL this year are too good to be missed out on.</p>
+          <p>“I would be surprised if this IPL is not the most watched ever. I am talking worldwide and not only India. Therefore, the benefit to sponsors would be tremendous and I am sure they will see it that way.</p>
+
+       </div>
+       </div>
+       
+    </div>
+  </section>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <div class="row">
+      <div class="col s12 l5">
+        <h2 class="indigo-text text-darken-4">About IPL</h2>
+        <p>The Indian Premier League (IPL) is a domestic, annual Twenty20 cricket tournament in India, organized by the IPL Governing Council, under the aegis of the Board of Control for Cricket in India (BCCI). It is the most watched Twenty20 tournament and the second-best paying sporting league globally</p> 
+        <p> IPL was established in 2008 and currently consists of eight teams in eight cities across India. The inaugural IPL season was won by Rajasthan Royals. As of May 2019, there have been twelve seasons of the IPL tournament. The latest season was conducted from March to May 2019, with Mumbai Indians winning the title</p>
+         <p>Mumbai Indians is the most successful team in league history, having won four titles. Chennai Super Kings, Sunrisers Hyderabad, Kolkata Knight Riders and Rajasthan Royals, apart from former team Deccan Chargers, are the other teams to have won the tournament title as of May 2019</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="s12 l12">
+        <div class="left">
+        <button class="btn-floating pulse">
+           <a href="./chennaicovidsurge25thjuly.html" class="center white-text text-darken-4">&larr;</a>
+         </button>
+         <span> Covid-19 surge</span>
+         </div>
+        </div>
+        <div class="right ">
+         <span>No link</span>
+         <button class="btn-floating  disabled">
+           <a href="#" class="center white-text text-darken-4">&rarr;</a>
+         </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6 scrollspy" id="about">
+          <h5>About me</h5>
+          <p>Hi, I am <span class="yellow-text text-darken-4"> Benitto </span> pursuing BE ECE at Chettinad College of Engineering & Technology, puliyur,Karur.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5>Follow me on</h5>
+          <ul>
+               <li class=" text-lighten">  
+               <a href="https://www.instagram.com/benitto_003/" class="grey-text"><i class="fab fa-instagram center"></i> Instagram</a>
+               </li>
+              <li class="grey-text text-lighten">
+                <a href="https://twitter.com/beniraj003" class="grey-text"><i class="fab fa-twitter center"></i>Twitter</a>
+              </li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey-darken-4">
+      <div class="container center-align">
+         &copy; benitto 2020
+      </div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.tabs').tabs();
+      $('.tooltipped').tooltip();
+
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
